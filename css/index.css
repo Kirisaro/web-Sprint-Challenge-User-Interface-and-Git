@@ -65,10 +65,37 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+a {
+    text-decoration: none;
+    color: #161515;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  }
+.logo{
+      padding-left: 18%;
+      padding-top: 1%;
+  }
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-top: 2%;
+  }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.topnav{
+    display: flex;
+}
+.jumbo{
+    display: flex;
+    justify-content: stretch;
+    padding-bottom: 4%;
 }
 
 .top-content {
@@ -101,7 +128,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box  {
     width: 12.5%;
     height: 100px;
     background: black;
